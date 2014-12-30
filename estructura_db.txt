@@ -1,0 +1,6 @@
+create table valores(
+    fecha varchar(12),
+    hora tinyint,
+    precio real,
+    primary key (fecha, hora)
+);
